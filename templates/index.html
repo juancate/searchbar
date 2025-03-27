@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Web app</title>
+
+  <link rel="stylesheet" href="/static/css/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+</head>
+<body>
+
+  <h2>Search for products:</h2>
+
+  <div class="wrapper">
+    <form id="inputForm">
+      <label for="input">Input:</label>
+      <input type="text" id="input" name="input" required><br>
+
+      <!-- <input type="submit" value="Submit"> -->
+    </form>
+
+    <div id="apiResponse"></div>
+  </div>
+
+  <script src="/js/api.js"></script>
+
+</body>
+</html>
